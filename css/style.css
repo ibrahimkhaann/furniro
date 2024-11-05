@@ -1,0 +1,240 @@
+/* all common css start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin: 0;
+padding: 0;
+line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* all common css end */
+
+/* top header part start  */
+#topHeaderpart{
+    padding-bottom:35px;
+}
+.topheaderFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.topheaderlogo{
+    padding-top: 27px;
+}
+.topheaderMenu{
+    padding-top: 41px;
+}
+.topheaderMenu ul li{
+    display: inline-block;
+}
+.topheaderMenu ul li a{
+    padding: 0 30px;
+    font-size: 16px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: .4s;
+}
+.topheaderMenu ul li a:hover{
+    color: burlywood;
+}
+
+.topheaderIcon{
+    padding-top: 49px;
+}
+.topheaderIcon a{
+padding: 0 22px;
+}
+.topheaderIcon a i{
+    color: #000;
+    font-size: 20px;
+    transition: .4s;
+}
+.topheaderIcon a i:hover{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+background-color:burlywood;
+}
+/* top header part end */
+
+/* top header banner  part start  */
+#topHeaderbanner{
+    padding-top: 125px;
+    padding-bottom: 95px;
+    background: url(../css/images/scandinavian-interior-mockup-wall-decal-background\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.topBannerFlex{
+    display: flex;
+}
+.topbannerleft{
+    width: 50%;
+}
+.topbannerRight{
+    width: 50%;
+}
+
+.topbannerRight{
+    /* padding: 125px 0; */
+    background-color: #FFF3E3;
+}
+.bannerPadding{
+   padding: 41px;
+}
+.bannerh3 h3{
+ font-size: 16px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.bannerh3 h1{
+    font-size: 52px;
+    color: #B88E2F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 62px;
+    padding-right: 109px;
+    padding-top: 22px;
+    padding-bottom: 40px;
+}
+.bannerh3 p{
+    font-size: 18px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    padding-right: 52px;
+}
+.bannerh3 a{
+    background-color: #B88E2F;
+   padding: 30px 97px;
+   font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    transition: .4s;
+}
+.bannerbutton{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.bannerbutton a:hover{
+   color: darkcyan;
+
+}
+/* top header banner  part end*/
+
+/* body part start  */
+#paraWithImg{
+    padding-bottom: 73px;
+}
+.bodypara{
+    text-align: center;
+    padding-top: 71px;
+}
+.bodypara h1{
+    font-size: 32px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+
+}
+.bodypara h3{
+padding-top: 20px;
+font-size: 20px;
+color: #666666;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+}
+
+.bodyFlex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+.bodyImg1{
+    width: 30%;
+}
+.bodyImg2{
+    width: 30%;
+}
+.bodyImg3{
+    width: 30%;
+}
+.bodyimg1 img{
+    width: 100%;
+}
+.bodyimg2 img{
+    width: 100%;
+}
+.bodyimg3 img{
+    width: 100%;
+}
+.bodyimg1 h2{
+text-align: center;
+padding-top: 36px;
+font-size: 24px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+.bodyimg2 h2{
+    text-align: center;
+    padding-top: 36px;
+    font-size:24px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+    }
+ .bodyimg3 h2{
+ text-align: center;
+ padding-top: 36px;
+ font-size: 24px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+  }
+
+
+
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
