@@ -1,7 +1,9 @@
 /* all common css start  */
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    outline: 0;
 }
 
 ul,
@@ -21,34 +23,45 @@ h4,
 h5,
 h6,
 p {
-margin: 0;
-padding: 0;
-line-height: 0.8;
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
 }
-.container{
+img{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
     width: 1320px;
     margin: 0 auto;
 }
+
 /* all common css end */
 
 /* top header part start  */
-#topHeaderpart{
-    padding-bottom:35px;
+#topHeaderpart {
+    padding-bottom: 35px;
 }
-.topheaderFlex{
+
+.topheaderFlex {
     display: flex;
     justify-content: space-between;
 }
-.topheaderlogo{
+
+.topheaderlogo {
     padding-top: 27px;
 }
-.topheaderMenu{
+
+.topheaderMenu {
     padding-top: 41px;
 }
-.topheaderMenu ul li{
+
+.topheaderMenu ul li {
     display: inline-block;
 }
-.topheaderMenu ul li a{
+
+.topheaderMenu ul li a {
     padding: 0 30px;
     font-size: 16px;
     color: #000;
@@ -56,31 +69,36 @@ line-height: 0.8;
     font-weight: 600;
     transition: .4s;
 }
-.topheaderMenu ul li a:hover{
+
+.topheaderMenu ul li a:hover {
     color: burlywood;
 }
 
-.topheaderIcon{
+.topheaderIcon {
     padding-top: 49px;
 }
-.topheaderIcon a{
-padding: 0 22px;
+
+.topheaderIcon a {
+    padding: 0 22px;
 }
-.topheaderIcon a i{
+
+.topheaderIcon a i {
     color: #000;
     font-size: 20px;
     transition: .4s;
 }
-.topheaderIcon a i:hover{
-    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
-background-color:burlywood;
+
+.topheaderIcon a i:hover {
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    background-color: burlywood;
 }
+
 /* top header part end */
 
 /* top header banner  part start  */
-#topHeaderbanner{
+#topHeaderbanner {
     padding-top: 125px;
     padding-bottom: 95px;
     background: url(../css/images/scandinavian-interior-mockup-wall-decal-background\ 1.jpg);
@@ -89,30 +107,36 @@ background-color:burlywood;
     background-size: cover;
     position: relative;
 }
-.topBannerFlex{
+
+.topBannerFlex {
     display: flex;
 }
-.topbannerleft{
-    width: 50%;
-}
-.topbannerRight{
+
+.topbannerleft {
     width: 50%;
 }
 
-.topbannerRight{
+.topbannerRight {
+    width: 50%;
+}
+
+.topbannerRight {
     /* padding: 125px 0; */
     background-color: #FFF3E3;
 }
-.bannerPadding{
-   padding: 41px;
+
+.bannerPadding {
+    padding: 41px;
 }
-.bannerh3 h3{
- font-size: 16px;
+
+.bannerh3 h3 {
+    font-size: 16px;
     color: #333333;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
-.bannerh3 h1{
+
+.bannerh3 h1 {
     font-size: 52px;
     color: #B88E2F;
     font-family: "Poppins", sans-serif;
@@ -122,7 +146,8 @@ background-color:burlywood;
     padding-top: 22px;
     padding-bottom: 40px;
 }
-.bannerh3 p{
+
+.bannerh3 p {
     font-size: 18px;
     color: #333333;
     font-family: "Poppins", sans-serif;
@@ -130,105 +155,255 @@ background-color:burlywood;
     line-height: 28px;
     padding-right: 52px;
 }
-.bannerh3 a{
+
+.bannerh3 a {
     background-color: #B88E2F;
-   padding: 30px 97px;
-   font-size: 16px;
+    padding: 30px 97px;
+    font-size: 16px;
     color: #FFFFFF;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     transition: .4s;
 }
-.bannerbutton{
+
+.bannerbutton {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.bannerbutton a:hover{
-   color: darkcyan;
+
+.bannerbutton a:hover {
+    color: darkcyan;
 
 }
+
 /* top header banner  part end*/
 
 /* body part start  */
-#paraWithImg{
+#paraWithImg {
     padding-bottom: 73px;
 }
-.bodypara{
+
+.bodypara {
     text-align: center;
     padding-top: 71px;
 }
-.bodypara h1{
+
+.bodypara h1 {
     font-size: 32px;
     color: #333333;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
 
 }
-.bodypara h3{
-padding-top: 20px;
-font-size: 20px;
-color: #666666;
-font-family: "Poppins", sans-serif;
-font-weight: 400;
+
+.bodypara h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    color: #666666;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
 }
 
-.bodyFlex{
+.bodyFlex {
     display: flex;
     justify-content: space-between;
     padding-top: 65px;
 }
-.bodyImg1{
-    width: 30%;
-}
-.bodyImg2{
-    width: 30%;
-}
-.bodyImg3{
-    width: 30%;
-}
-.bodyimg1 img{
-    width: 100%;
-}
-.bodyimg2 img{
-    width: 100%;
-}
-.bodyimg3 img{
-    width: 100%;
-}
-.bodyimg1 h2{
-text-align: center;
-padding-top: 36px;
-font-size: 24px;
-    color: #333333;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
 
+.bodyImg1 {
+    width: 30%;
 }
-.bodyimg2 h2{
+
+.bodyImg2 {
+    width: 30%;
+}
+
+.bodyImg3 {
+    width: 30%;
+}
+
+.bodyimg1 img {
+    width: 100%;
+    transition: .4s;
+}
+.bodyimg1 img:hover{
+    -webkit-box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+}
+
+.bodyimg2 img {
+    width: 100%;
+    transition: .4s;
+}
+.bodyimg2 img:hover{
+    -webkit-box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+}
+
+.bodyimg3 img {
+    width: 100%;
+    transition: .4s;
+}
+.bodyimg3 img:hover{
+    -webkit-box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+}
+
+
+.bodyimg1 h2 {
     text-align: center;
     padding-top: 36px;
-    font-size:24px;
+    font-size: 24px;
     color: #333333;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 
-    }
- .bodyimg3 h2{
- text-align: center;
- padding-top: 36px;
- font-size: 24px;
+}
+
+.bodyimg2 h2 {
+    text-align: center;
+    padding-top: 36px;
+    font-size: 24px;
     color: #333333;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 
-  }
+}
 
+.bodyimg3 h2 {
+    text-align: center;
+    padding-top: 36px;
+    font-size: 24px;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
 
+/* body part  end  */
 
-/* top header part start  */
-/* top header part start  */
-/* top header part start  */
-/* top header part start  */
+/* item  part start  */
+#itemSellart{
+    padding-bottom: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.itemsellFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.itemsellFlex{
+    width: 100%;
+    padding-top: 40px;
+}
+.product1{
+    width: 21.8%;
+    background-color: #F4F5F7;
+     transition: .4s; 
+}
+
+.product1:hover{
+    -webkit-box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 8px 8px 7px 0px rgba(0,0,0,0.75);
+} 
+.productwrite{
+  padding-top: 10px;
+ padding-left: 20px;
+}
+.productwrite h5{
+    font-size: 24px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 600;
+    color: #3A3A3A;
+    padding-right: 141px;
+}
+.productwrite h6{
+    font-size: 16px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 500;
+    color: #898989;
+    padding-top: 15px;
+    padding-right: 130px;
+}
+.prodctprizeFlex{
+    display: flex;
+
+    
+}
+.price1 p{
+    font-size: 20px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 600;
+    color: #3A3A3A;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.price2 p{
+    font-size: 16px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+    color: #B0B0B0;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.price2 p{
+    position: relative;
+}
+.price2 p::before{
+    position: absolute;
+    height: 1px;
+    width: 99px;
+    background-color: #898989;
+    content: "";
+    top: 25px;
+    left: 20px;
+}
+.itemflex2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+/* item  part end  */
+
+/* item btton part start  */
+
+#itembutton{
+    padding-bottom: 400px;
+}
+.paddingtext{
+    text-align: center;
+}
+.buttoninline{
+   height: 100px;
+   width: 100px;
+    position: relative;
+    display: inline-block;
+}
+.paddingboss{
+    padding-top: 0;
+    padding-left: 0px;
+}
+.padding1{
+    padding-top: 2px;
+    padding-left:144px;
+    background-color: #000;
+    position: absolute;
+}
+.padding2{
+    padding-top: 2px;
+    padding-left:160px;
+    background-color: #000;
+    position: absolute;
+}
+.paddingboss2{
+    padding-top: 20px;
+}
 /* top header part start  */
 /* top header part start  */
 /* top header part start  */
