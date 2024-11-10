@@ -512,10 +512,10 @@ a{
 
 /* body part end  */
 
-/* top header part start  */
+/* fuull body photo part start  */
 #fullbodyimg{
-    padding-bottom: 600px;
     position: relative;
+    padding-bottom: 65px;
 }
 
 .fullbodywrite{
@@ -567,12 +567,121 @@ font-family:"Poppins", sans-serif;
     padding-left: 870px;
     padding-top: 98px;
 }
-
-
-
+.fullbody7 img{
+    position: absolute;
+    padding-left: 871px;
+    padding-top: 462px;
+}
+.fullbody7{
+    position: absolute;
+}
+.fllbody8 img{
+    position: absolute;
+    padding-top: 463px;
+    padding-left: 1066px;
+}
+.fuullbody9{
+    position: absolute;
+    padding-left: 1173px;
+    padding-top: 13px
+}
+/* fuull body photo part end  */
 
 
 /* top header part start  */
+#furniroAboutPart{
+  padding-top: 700px;
+  padding-bottom: 700px;
+}
+.biglinepart{
+    height: 1px;
+    width: 100%;
+    background-color: #9F9F9F;
+}
+.biglineflex{
+    display: flex;
+    width: 100%;
+    padding-top: 45px;
+}
+.biglinepart1{
+    width: 23%;
+}
+.bigline1{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    font-family:"Poppins", sans-serif;
+    color: #000000;
+
+}
+.bigline2{
+padding-top: 45px;
+}
+.bigline2 h4{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
+    color: #9F9F9F;
+    line-height: 22px;
+
+}
+.bigline2 h5{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
+    color: #9F9F9F;
+    padding-top: 5px;
+
+}
+.biglinepart2{
+    width: 23%;
+}
+.biglineMenu2{
+    width: 100%;
+    padding-left: 100px;
+}
+.biglineMenu2 h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family:"Poppins", sans-serif;
+    color: #9F9F9F;
+}
+.biglinepart3{
+    width: 23%;
+}
+.biglinepart4{
+    width: 23%;
+}
+.biglinemenu3{
+    padding-top: 30px;
+}
+.biglinemenu3 ul li a{
+    padding: 25px 0;
+    color:#000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:"Poppins", sans-serif;
+    transition: .4s;
+}
+
+.biglinemenu3 ul li a:hover{
+    color: #B88E2F;
+}
+.biglinepartmsg{
+    padding-top: 35px;
+}
+.biglinepartmsg p{
+    color:#000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
+}
+
+
+
+
 /* top header part start  */
 /* top header part start  */
 /* top header part start  */
